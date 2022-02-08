@@ -28,11 +28,9 @@ O projeto parte da ideia de uma aplicação web na qual o usuário poderá escre
 
 Ao se deparar com a aplicação, o usuário encontraria um pequeno texto informativo sobre o funcionamento da cifra e uma interface que o permitirar testar o funcionamento da mesma. Nessa interface, o usuário encontraria:
 
- - Interface que permita escolher o offset (chave de deslocamento) usava para cifrar/decifrar.
- - Interface que permita escrever um texto para ser cifrado.
- - Interface que mostre o resultado da cifra corretamente.
- - Interface que permita escrever um texto para ser decifrado.
- - Interface que mostre o resultado decifrado corretamente.
+ - Um campo destinado para que o usuário escolha o offset (chave de deslocamento) .
+ - Um campo destinado para que o usuário escreva uma mensagem que será cifrada ou decifrada.
+ - Um campo destinado para mostrar o resultado da mensagem cifrada / mensagem decifrada.
 
 Através dessa aplicação, o usuário poderia utiliza-la para codificar mensagens para os mais diversos fins e compartilha-las casualmente em qualquer plataforma de troca de mensagens, bastando apenas que o usuário compartilhe o aplicativo web juntamente com a mensagem cifrada  e o número de deslocamento.
 
@@ -65,7 +63,9 @@ Todavia, a medida que o projeto foi sendo desenvolvido, o número de páginas fo
 
 ## 5. Instalação
 
+Este projeto está disponível para utilização e visualização online através do seguinte endereço web (URL):
 
+É possível acessar este endereço web (URL) através de um navegador. Nele, o usuário poderá utilizar todas as funcionalidades disponíveis da aplicação.
 
 
 
