@@ -28,9 +28,6 @@ O projeto parte da ideia de uma aplicação web na qual o usuário poderá escre
 
 Ao se deparar com a aplicação, o usuário encontraria um pequeno texto informativo sobre o funcionamento da cifra e uma interface que o permitirar testar o funcionamento da mesma. Nessa interface, o usuário encontraria:
 
-<br>
-<br>
-
  - Interface que permita escolher o offset (chave de deslocamento) usava para cifrar/decifrar.
  - Interface que permita escrever um texto para ser cifrado.
  - Interface que mostre o resultado da cifra corretamente.
@@ -42,21 +39,27 @@ Através dessa aplicação, o usuário poderia utiliza-la para codificar mensage
 
 ## 3. Interface do Usuário
 
-A princípio, a aplicação possuiria duas interfaces: a primeira seria uma tela de boas vindas com um texto informativo e imagens contextualizando sobre o que se trata a Cifra de César. No final da página, o usuário encontraria um menu de navegação, que o convidava a testar a cifra. Haveria um botão que o levaria a outra página na qual estaria um formulário onde ele poderia submeter uma mensagem e cifra-la/ decifra-la.
-<br>
+A princípio, a aplicação possuiria duas interfaces: a primeira seria uma tela de boas vindas com um texto informativo e uma imagem contextualizando sobre o que se trata a Cifra de César. No final da página, o usuário encontraria um menu de navegação, que o convidava a testar a cifra. Haveria um botão que o levaria a outra página na qual estaria um formulário onde ele poderia submeter uma mensagem e cifra-la /decifra-la.
+
+
 <img src="Homepage.png" alt="prototipo da Homepage">
-<br>
+
+
+
 <img src="paginainputs.png" alt="prototipo da interface para codificar">
-<br>
+
+
+
 Todavia, a medida que o projeto foi sendo desenvolvido, o número de páginas foi reduzido para apenas uma única página, mas mantendo a mesma estrutura: um texto com uma imagem explicando sobre o que era a cifra e logo abaixo, um formulário com botões que permitiam o usuário escrever e criptografar uma mensagem.
+
 
 ## 4. Funcionalidades
 
 - Através do alfabeto simples (somente maiúsculas e sem ç), o usuário pode escrever uma mensagem para ser criptografada;
 
-- Logo abaixo da interface destinada a mensagem que o usuário quer criptografar, há um input no qual o usuário determinará o nº de deslocamento da cifra;
+- Próximo à interface onde o usuário escreverá a mensagem que quer criptografar, há um input no qual é possível determinar o nº de deslocamento da cifra;
 
-- Os botões 'Cifre!' e 'Decifre!' podem ser acionados para aplicar a codificação/ decodificação respectivamente.
+- Após escrever a mensagem e escolher o nº de deslocamento, o usuário pode clicar no botão 'Cifre!' ou 'Decifre!' para aplicar a codificação/ decodificação respectivamente.
 
 
 
