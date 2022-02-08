@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2.0;
+  color: #20068c;
+  text-align: left;
+  background-color: #fff0e5;
+}
+header {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+h1{
+    border-bottom: 3px solid #20068c;
+}
+section {
+  border-bottom: 3px solid #20068c;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+}
+
+
+.formcod {
+  border: 1px solid #20068c;
+  background-color: #D1DAE5;
+  border-radius: 5px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+  margin-top: 50px;
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+}
+.suavez {
+  width: fit-content;
+  border: none;
+}
+img {
+  width: 100%;
+}
+
+.titulo {
+  text-align: center;
+}
+.navsobre {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+.botao {
+  border: 1px solid #fff0e5;
+  border-radius: 5px;
+  background-color: #fff0e5;
+  color: #20068c;
+  text-align: center;
+  height: 33px;
+  width: 90px;
+}
+.botao:hover{
+    background-color: #ea215a;
+    color: #fff0e5;
+}
+
+textarea {
+  resize: none;
+  border-radius: 3px;
+  font-size: 18px;
+}
+label {
+  font-weight: 600;
+}
+
+.botaoinicio {
+  border: 1px solid #ea215a;
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: #ea215a;
+  color: #fff0e5;
+  text-align: center;
+  height: 33px;
+  width: 90px;
+}
+.menunav{
+    margin-top: 40px;
+}
+footer {
+  text-align: center;
+}
+
+form>input{
+    height: 33px;
+    width: 90px;
+    border-radius: 3px;
+    font-size: 18px;
+}
