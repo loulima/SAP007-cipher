@@ -31,6 +31,7 @@ const cipher = {
     for (let i = 0; i < letters; i++) {
       let asciiNum = texto.charCodeAt(i);
       const codeAscii = 90;
+      
       if (asciiNum <= 90 && asciiNum >= 65) {
         let decodeValue = ((asciiNum - codeAscii - offset) % 26) + codeAscii; 
         textDecipher = textDecipher + String.fromCharCode(decodeValue);
