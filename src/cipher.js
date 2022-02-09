@@ -12,7 +12,6 @@ const cipher = {
       const codeAscii = 65;
 
       if (asciiNum >= 65 && asciiNum <= 90) {
-        // retorna apenas o alfabeto maiúsculo
         let encodeValue = ((asciiNum + codeAscii + offset) % 26) + codeAscii;
         textCipher = textCipher + String.fromCharCode(encodeValue); 
       } else {
