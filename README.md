@@ -15,19 +15,20 @@
 Por exemplo estabelecemos um deslocamento de 3 posições, á direita no alfabeto, a letra A seria substituída pela D, que está 3 posições a sua frente e assim sucessivamente para as demais letras do alfabeto.
 
 ## 2. 🖥️ Interface
+<img src="cifraDeCesar.jpg" alt="interface da aplicação Cifra de Cesar">
 
 ## 3. 🛠️ Como usar
 
-- Através do alfabeto simples (somente maiúsculas e sem ç), o usuário pode escrever uma mensagem para ser criptografada;
+1. Através do alfabeto simples (somente maiúsculas e sem ç), o usuário pode escrever uma mensagem para ser criptografada;
 
-- Próximo à interface onde o usuário escreverá a mensagem que quer criptografar, há um input no qual é possível determinar o nº de deslocamento da cifra;
+2. Após escrever a mensagem, o usuário deve determinar o número da chave de deslocamento da Cifra. Para decodificar a mensagem, <b> o número da chave de deslocamento precisa ser igual ao número que foi utilizado na chave para criptografar a mensagem anteriormente.</b>;
 
-- Após escrever a mensagem e escolher o nº de deslocamento, o usuário pode clicar no botão 'Cifre!' ou 'Decifre!' para aplicar a codificação/ decodificação respectivamente.
+3. Para criptografar ou decriptografar, basta clicar no botão 'Cifre!' ou então 'Decifre!' respectivamente.
 
 ## ⚙️ Tecnologias utilizadas
 *   HTML5
 *   JavaScript
-*   Html
+*   CSS
 
 
 
