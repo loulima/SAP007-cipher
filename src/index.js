@@ -10,7 +10,6 @@ function copy(e){
   let copyText= document.getElementById('txtResult');
  copyText.select();
   navigator.clipboard.writeText(copyText.value);
-  console.log(copyText.value );
 }
 
 function cifrar(e) {
