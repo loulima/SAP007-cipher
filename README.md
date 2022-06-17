@@ -18,16 +18,18 @@ Por exemplo estabelecemos um deslocamento de 3 posições, á direita no alfabet
 
 ## 3. 🛠️ Como usar
 
-- Através do alfabeto simples (somente maiúsculas e sem ç), o usuário pode escrever uma mensagem para ser criptografada;
+1. Através do alfabeto simples (somente maiúsculas e sem ç), o usuário pode escrever uma mensagem para ser criptografada;
 
-- Próximo à interface onde o usuário escreverá a mensagem que quer criptografar, há um input no qual é possível determinar o nº de deslocamento da cifra;
+2. Após escrever a mensagem, deve-se determinar um número para a chave de deslocamento da cifra;
 
-- Após escrever a mensagem e escolher o nº de deslocamento, o usuário pode clicar no botão 'Cifre!' ou 'Decifre!' para aplicar a codificação/ decodificação respectivamente.
+3. Para decriptografar, segue-se os mesmos passos, com a diferença que o número da chave de deslocamento deve ser igual ao número da chave de deslocamento usada para codificar.
+
+4. Após escrever a mensagem e escolher o nº de deslocamento, o usuário pode clicar no botão 'Cifre!' ou 'Decifre!' para aplicar a codificação/ decodificação respectivamente.
 
 ## ⚙️ Tecnologias utilizadas
 *   HTML5
-*   JavaScript
-*   Html
+*   Vanilla JavaScript
+*   CSS
 
 
 
