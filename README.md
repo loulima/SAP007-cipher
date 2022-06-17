@@ -6,7 +6,6 @@
 - [2. Interface](#2-Interface)
 - [3. Como usar](#3-como-usar)
 - [4. Tecnologias Utilizadas](#4-tecnologias-utilizadas)
----
 
 ## 1. 👓 Sobre
 
@@ -27,7 +26,7 @@ Por exemplo estabelecemos um deslocamento de 3 posições, á direita no alfabet
 
 ## ⚙️ Tecnologias utilizadas
 *   HTML5
-*   JavaScript
+*   Vanilla JavaScript
 *   CSS
 
 
